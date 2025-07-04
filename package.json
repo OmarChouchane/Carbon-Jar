@@ -1,0 +1,80 @@
+{
+  "name": "carbon-jar",
+  "description": "CarbonJar official Website ",
+  "version": "1.0.0",
+  "private": true,
+  "author": "CarbonJar",
+  "license": "MIT",
+  "keywords": [
+  "CarbonJar",
+  "Sustainability",
+  "Climate",
+  "GreenTech",
+  "EcoFriendly",
+  "Environmental",
+  "CarbonFootprint",
+  "ClimateAction"
+],
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "./src/**/*.{ts,js,jsx,tsx}": [
+      "yarn lint --fix",
+      "yarn format"
+    ]
+  },
+  "dependencies": {
+    "@fontsource/inter": "4.2.1",
+    "@svgr/webpack": "5.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "autoprefixer": "^10.4.19",
+    "framer-motion": "^11.3.21",
+    "next": "^14.2.5",
+    "next-seo": "^6.5.0",
+    "postcss": "^8.4.40",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^11.1.9",
+    "tailwindcss": "^3.4.7",
+    "tsparticles": "^3.5.0",
+    "twind": "0.15.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@types/node": "14.14.28",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.1",
+    "@typescript-eslint/eslint-plugin": "4.15.1",
+    "@typescript-eslint/parser": "4.15.1",
+    "commitizen": "4.2.3",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "7.20.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-import-resolver-typescript": "2.4.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "5.0.9",
+    "lint-staged": "10.5.4",
+    "prettier": "2.2.1",
+    "typescript": "^5.5.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
