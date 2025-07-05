@@ -6240,7 +6240,7 @@ tsutils@^3.17.1:
   dependencies:
     tslib "^1.8.1"
 
-twind@0.15.4:
+twind@^0.15.4:
   version "0.15.4"
   resolved "https://registry.npmjs.org/twind/-/twind-0.15.4.tgz"
   integrity sha512-/erxZJvb2V0xEs77/vrYiSMjIz1tWhJ9nLMg2TjLsowMiX8SngGMKjYc8Omd3luV8XpynPwv2MthQofawWTbRA==
