@@ -43,16 +43,14 @@ const CarbonManagement: React.FC = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-      <section className={tw("bg-green-100 p-8 lg:mt-8 rounded-lg")}>
-        <div className={tw("container mx-auto")}>
+      <section className="bg-green-100 p-8 lg:mt-8 rounded-lg">
+        <div className="container mx-auto">
           <SmallerH1>Comprehensive Carbon Management</SmallerH1>
           <br />
           <H2>Find here All-Inclusive Carbon Management Solutions</H2>
           <br />
           <div
-            className={tw(
-              "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8"
-            )}
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8"
           >
             {cards.map((card, index) => (
               <Card

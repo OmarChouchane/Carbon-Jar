@@ -35,11 +35,11 @@ const About: React.FC = () => {
         description="Learn more about us on this page."
       />
 
-      <main className={tw("bg-white-light min-h-screen")}>
+      <main className="bg-white-light min-h-screen">
         <br />
         <br />
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-          <section className={tw("lg:px-8 px-2 lg:mt-8 mb-8 lg:mx-32")}>
+          <section className="lg:px-8 px-2 lg:mt-8 mb-8 lg:mx-32">
             <SmallerH1>Take the Lead on Climate</SmallerH1>
             <br />
             <H2>
@@ -49,30 +49,23 @@ const About: React.FC = () => {
             <BigCard3
               title={
                 <>
-                  Climate <span className={tw("text-light-green")}>Risk</span>,
-                  Climate{" "}
-                  <span className={tw("text-light-green")}>Opportunity</span>
+                  Climate <span className="text-light-green">Risk</span>,
+                  Climate <span className="text-light-green">Opportunity</span>
                 </>
               }
               description={
                 <>
                   Scientists and policymakers have agreed to limit the
-                  <span className={tw("text-light-green")}>
-                    {" "}
-                    harmful effects
-                  </span>{" "}
-                  of climate change, the world must limit global warming to less
+                  <span className="text-light-green"> harmful effects</span> of
+                  climate change, the world must limit global warming to less
                   than
-                  <span className={tw("text-light-green")}> 1.5°C</span>. Since
-                  the industrial revolution, businesses have been responsible
-                  for the vast majority of all greenhouse emissions. Now,
-                  businesses can lead the way to a sustainable future. In line
-                  with the 2015 Paris Agreement, we must all take
-                  <span className={tw("text-light-green")}>
-                    {" "}
-                    responsibility
-                  </span>{" "}
-                  for our carbon footprint.
+                  <span className="text-light-green"> 1.5°C</span>. Since the
+                  industrial revolution, businesses have been responsible for
+                  the vast majority of all greenhouse emissions. Now, businesses
+                  can lead the way to a sustainable future. In line with the
+                  2015 Paris Agreement, we must all take
+                  <span className="text-light-green"> responsibility</span> for
+                  our carbon footprint.
                 </>
               }
               icon="images/icons/sun.svg"
@@ -84,17 +77,17 @@ const About: React.FC = () => {
               description={
                 <>
                   The world is transitioning to a{" "}
-                  <span className={tw("font-bold")}> net-zero economy </span>.
-                  Banks, investors, and consumers are demanding transparency in
-                  carbon disclosures and sustainable options. Proactive
-                  emissions management not only reduces the risk of{" "}
-                  <span className={tw("font-bold")}> compliance failures</span>{" "}
+                  <span className="font-bold"> net-zero economy </span>. Banks,
+                  investors, and consumers are demanding transparency in carbon
+                  disclosures and sustainable options. Proactive emissions
+                  management not only reduces the risk of{" "}
+                  <span className="font-bold"> compliance failures</span>{" "}
                   but also saves{" "}
-                  <span className={tw("font-bold")}> operational costs</span>{" "}
+                  <span className="font-bold"> operational costs</span>{" "}
                   and increases{" "}
-                  <span className={tw("font-bold")}> brand equity</span>.
+                  <span className="font-bold"> brand equity</span>.
                   However, this work must be founded on accurate emissions data,
-                  which is often <span className={tw("font-bold")}>hard</span>{" "}
+                  which is often <span className="font-bold">hard</span>{" "}
                   to find.
                 </>
               }
@@ -116,7 +109,7 @@ const About: React.FC = () => {
                   Invest in high-quality carbon removal projects that will
                   literally remove carbon from the air.
                   <br />{" "}
-                  <span className={tw("font-bold")}>
+                  <span className="font-bold">
                     {" "}
                     Reach net zero. Together, we can make a difference.
                   </span>

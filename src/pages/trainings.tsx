@@ -91,94 +91,86 @@ const Trainings: React.FC = () => {
 
   return (
     <Page>
-      <ScrollProgress />
+      <>
+        <ScrollProgress />
 
-      <NextSeo title="Trainings" description="" />
+        <NextSeo title="Trainings" description="" />
 
-      <main>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-          <header>
-            <div
-              className={tw(
-                `mx-auto py-12 sm:px-4 lg:px-6 mb-4 lg:mb-10 md:mb-6 sm:mb-8 lg:mt-10 md:mt-4 sm:mt-4`
-              )}
-            >
-              <br />
-              <H1>Our Training Programs!</H1>
-              <br />
-              <H2>
-                At Carbon Jar, we provide professional training to enhance your
-                <br /> team’s knowledge and skills.
-              </H2>
-            </div>
-
-            <div className="flex justify-center items-center h-screen">
+        <main>
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <header>
               <div
-                className={tw(
-                  "relative flex items-center border-bg-grey rounded-full bg-white p-1 w-96"
-                )}
+                className="mx-auto py-12 sm:px-4 lg:px-6 mb-4 lg:mb-10 md:mb-6 sm:mb-8 lg:mt-10 md:mt-4 sm:mt-4"
               >
+                <br />
+                <H1>Our Training Programs!</H1>
+                <br />
+                <H2>
+                  At Carbon Jar, we provide professional training to enhance your
+                  <br /> team’s knowledge and skills.
+                </H2>
+              </div>
+
+              <div className="flex justify-center items-center h-screen">
                 <div
-                  className={tw(
-                    `cursor-pointer flex-1 text-center py-4 text-lg rounded-full transition-colors ${isCorporate ? "bg-green text-white" : "bg-white text-green"}`
-                  )}
-                  onClick={() => handleSwitch("corporate")}
+                  className="relative flex items-center border-bg-grey rounded-full bg-white p-1 w-96"
                 >
-                  Corporate trainings
-                </div>
-                <div
-                  className={`cursor-pointer flex-1 text-center py-4 text-lg rounded-full transition-colors ${!isCorporate ? "bg-green text-white" : "bg-white text-green"}`}
-                  onClick={() => handleSwitch("student")}
-                >
-                  Student trainings
+                  <div
+                    className={`cursor-pointer flex-1 text-center py-4 text-lg rounded-full transition-colors ${isCorporate ? "bg-green text-white" : "bg-white text-green"}`}
+                    onClick={() => handleSwitch("corporate")}
+                  >
+                    Corporate trainings
+                  </div>
+                  <div
+                    className={`cursor-pointer flex-1 text-center py-4 text-lg rounded-full transition-colors ${!isCorporate ? "bg-green text-white" : "bg-white text-green"}`}
+                    onClick={() => handleSwitch("student")}
+                  >
+                    Student trainings
+                  </div>
                 </div>
               </div>
-            </div>
-          </header>
-        </motion.div>
+            </header>
+          </motion.div>
 
-        {isCorporate ? <CorporateTrainings /> : <StudentsTrainings />}
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-          <section>
-            <TextCard title="In-House Training" texts={inHouse} />
-            <TextCard title="Public Training" texts={publicTrainings} />
-            <TextCard title="Live Online Training" texts={liveOnlineTrinings} />
-          </section>
-        </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-          <section
-            className={tw(
-              "bg-light-green w-full lg:px-20 p-4 lg:pt-12 lg:mb-16"
-            )}
-          >
-            <SmallerH1 className={tw("lg:m-8")}>
-              Empowering Businesses with Efficient Trainings
-            </SmallerH1>
-            <br />
-            <div
-              className={tw(
-                "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
-              )}
+          {isCorporate ? <CorporateTrainings /> : <StudentsTrainings />}
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <section>
+              <TextCard title="In-House Training" texts={inHouse} />
+              <TextCard title="Public Training" texts={publicTrainings} />
+              <TextCard title="Live Online Training" texts={liveOnlineTrinings} />
+            </section>
+          </motion.div>
+          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+            <section
+              className="bg-light-green w-full lg:px-20 p-4 lg:pt-12 lg:mb-16"
             >
-              <StatisticBlock number="+1000" description="Hours of training" />
-              <StatisticBlock number="+150" description="People trained" />
-              <StatisticBlock number="+12" description="Trainings offered" />
-              <StatisticBlock number="+15" description="Integrated workshops" />
+              <SmallerH1 className="lg:m-8">
+                Empowering Businesses with Efficient Trainings
+              </SmallerH1>
               <br />
-            </div>
-            <H2 className={tw("lg:px-32 lg:mx-32 lg:mb-12 text-left")}>
-              <span className={tw("font-bold")}>NOTE: </span>We’re committed to
-              matching the prices of any competitors who may provide the same
-              courses! If you’re considering booking multiple courses or have
-              multiple attendees, we offer a discounted pricing structure.
-              Please get in touch with our team for further details.
-            </H2>
-          </section>
-        </motion.div>
-        <FAQSection />
-      </main>
+              <div
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+              >
+                <StatisticBlock number="+1000" description="Hours of training" />
+                <StatisticBlock number="+150" description="People trained" />
+                <StatisticBlock number="+12" description="Trainings offered" />
+                <StatisticBlock number="+15" description="Integrated workshops" />
+                <br />
+              </div>
+              <H2 className="lg:px-32 lg:mx-32 lg:mb-12 text-left">
+                <span className="font-bold">NOTE: </span>We’re committed to
+                matching the prices of any competitors who may provide the same
+                courses! If you’re considering booking multiple courses or have
+                multiple attendees, we offer a discounted pricing structure.
+                Please get in touch with our team for further details.
+              </H2>
+            </section>
+          </motion.div>
+          <FAQSection />
+        </main>
 
-      <Footer />
+        <Footer />
+      </>
     </Page>
   );
 };

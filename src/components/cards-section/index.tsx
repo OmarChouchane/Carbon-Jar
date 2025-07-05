@@ -39,9 +39,9 @@ const CardsSection: React.FC = () => {
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
       <section
-        className={tw("bg-green-100 lg:px-8 px-2 lg:mt-8 mb-8 rounded-lg")}
+        className="bg-green-100 lg:px-8 px-2 lg:mt-8 mb-8 rounded-lg"
       >
-        <div className={tw("container mx-auto ")}>
+        <div className="container mx-auto ">
           <BigCard1
             title={card1.title}
             description={card1.description}
@@ -51,7 +51,7 @@ const CardsSection: React.FC = () => {
             button2={card1.button2}
           />
         </div>
-        <div className={tw("container lg:px-8 px-2 mx-auto")}>
+        <div className="container lg:px-8 px-2 mx-auto">
           <BigCard2
             title={card2.title}
             description={card2.description}

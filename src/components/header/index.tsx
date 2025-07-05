@@ -30,7 +30,7 @@ const Header = () => (
     whileInView={{ opacity: 1 }}
   >
   <header >
-    <div className={tw(`max-w-4xl mx-auto py-12  sm:px-4 lg:px-6 mb-4 lg:mb-10 md:mb-6 sm:mb-8 lg:mt-10 md:mt-4 sm:mt-4`)}>
+    <div className="max-w-4xl mx-auto py-12  sm:px-4 lg:px-6 mb-4 lg:mb-10 md:mb-6 sm:mb-8 lg:mt-10 md:mt-4 sm:mt-4">
       <br/>
       <H1 >
       Measuring Today, <br />Preserving Tomorrow.      
@@ -39,19 +39,19 @@ const Header = () => (
       <H2>
         Empowering businesses with the tools to measure, manage,
         and reduce their carbon footprints for a greener future.</H2>
-      <div className={tw("mt-10 flex justify-center items-center w-full mx-auto")}>
+      <div className="mt-10 flex justify-center items-center w-full mx-auto">
         <Button secondary>Learn more</Button>
-          <span className={tw("mx-2")}></span>
-          <div className={tw("flex items-center")}>
+          <span className="mx-2"></span>
+          <div className="flex items-center">
           <Button primary >
           Book a consultation
-          <IoIosArrowForward className={tw("ml-2")} />
+          <IoIosArrowForward className="ml-2" />
           </Button>
           </div>
       </div>
     </div>
-    <div className={tw(`flex justify-center `)}>
-      <div className={tw(`mt-2 w-full`)}>
+    <div className="flex justify-center ">
+      <div className="mt-2 w-full">
           <H3>Aligned with Global Standards and Frameworks</H3>
           <LinkImageGrid links={imageLinks} />
       </div>

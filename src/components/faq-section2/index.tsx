@@ -45,10 +45,10 @@ const FAQSection: React.FC = () => {
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
       <section
-        className={tw("lg:mx-32 sm:mx-1 md:mx-10 lg:px-8 px-2 lg:mt-8 mb-12 ")}
+        className="lg:mx-32 sm:mx-1 md:mx-10 lg:px-8 px-2 lg:mt-8 mb-12 "
       >
-        <SmallerH1 className={tw("text-white-light")}>FAQs</SmallerH1>
-        <H2 className={tw("text-white-light")}>
+        <SmallerH1 className="text-white-light">FAQs</SmallerH1>
+        <H2 className="text-white-light">
           Replying to the most frequently asked questions
         </H2>
         <br />

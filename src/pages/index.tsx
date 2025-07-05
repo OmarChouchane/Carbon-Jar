@@ -16,7 +16,7 @@ export default function Home() {
       <ScrollProgress />
       <NextSeo title="CarbonJar" description="" />
       <Header />
-      <main className={tw("bg-white-light min-h-screen")}>
+      <main className="bg-white-light min-h-screen">
         <CarbonManagement />
         <ClimateActionSection />
         <CardsSection />

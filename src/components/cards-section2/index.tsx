@@ -59,13 +59,13 @@ const CarbonCards: React.FC = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-      <section className={tw("bg-green p-8 lg:mt-8 lg:mx-44 rounded-lg")}>
-        <div className={tw("container mx-auto")}>
-          <SmallerH1 className={tw("text-white-light lg:text-5xl")}>
+      <section className="bg-green p-8 lg:mt-8 lg:mx-44 rounded-lg">
+        <div className="container mx-auto">
+          <SmallerH1 className="text-white-light lg:text-5xl">
             Our field of expertise
           </SmallerH1>
           <br />
-          <H2 className={tw("text-white-light")}>
+          <H2 className="text-white-light">
             We offer a comprehensive suite of services designed to help your
             organization navigate
             <br />
@@ -73,9 +73,7 @@ const CarbonCards: React.FC = () => {
           </H2>
           <br />
           <div
-            className={tw(
-              "grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-6 mt-8"
-            )}
+            className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-6 mt-8"
           >
             {cards.slice(0, 6).map((card, index) => (
               <Card

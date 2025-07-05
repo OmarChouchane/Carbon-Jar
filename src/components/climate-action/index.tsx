@@ -7,15 +7,13 @@ const ClimateActionSection = () => {
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
       <section
-        className={tw(
-          "lg:mt-16 lg:mb-12 bg-green flex flex-col justify-center items-center gap-16 py-16"
-        )}
+        className="lg:mt-16 lg:mb-12 bg-green flex flex-col justify-center items-center gap-16 py-16"
       >
-        <div className={tw("flex flex-col justify-start items-center gap-4")}>
-          <div className={tw("self-stretch text-center")}>
+        <div className="flex flex-col justify-start items-center gap-4">
+          <div className="self-stretch text-center">
             <SmallerH1 className="text-white-light">
               The
-              <span className={tw("text-light-green")}> Urgency</span>
+              <span className="text-light-green"> Urgency</span>
               <span className="text-white-light"> of Climate Action</span>
             </SmallerH1>
           </div>
@@ -25,7 +23,7 @@ const ClimateActionSection = () => {
         </div>
 
         <div
-          className={tw("grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8")}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {" "}
           <StatisticBlock

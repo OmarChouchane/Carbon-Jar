@@ -176,15 +176,15 @@ const CorporateTrainings: React.FC = () => {
       "At Carbon Jar, we provide professional training to enhance your team’s knowledge and skills. Our courses help teams gain an in-depth understanding of various standards that empower businesses. Through efficient training in effective implementation practices, auditing, and structured frameworks, we enable businesses to achieve their goals and improve staff efficiency. We offer In-House Training, Public Training, and Live Online Training to achieve process and operational excellence.",
     Maindescription: "Why Choose Our Corporate Training Programs?",
     description: (
-      <div className={tw("lg:mx-8")}>
-        <div className={tw("flex items-start")}>
-          <span className={tw("text-lg mr-2")}>•</span>
-          <span className={tw("underline")}>Onsite Training:</span>
+      <div className="lg:mx-8">
+        <div className="flex items-start">
+          <span className="text-lg mr-2">•</span>
+          <span className="underline">Onsite Training:</span>
           <span> 80% more cost-effective for companies.</span>
         </div>
-        <div className={tw("flex items-start")}>
-          <span className={tw("text-lg mr-2")}>•</span>
-          <span className={tw("underline")}>Employee Development:</span>
+        <div className="flex items-start">
+          <span className="text-lg mr-2">•</span>
+          <span className="underline">Employee Development:</span>
           <span>
             {" "}
             68% of workers say that training and development is the most
@@ -200,9 +200,9 @@ const CorporateTrainings: React.FC = () => {
     <>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section
-          className={tw("bg-green-100 lg:px-8 px-2 lg:mt-8 mb-8 rounded-lg")}
+          className="bg-green-100 lg:px-8 px-2 lg:mt-8 mb-8 rounded-lg"
         >
-          <div className={tw("container lg:px-8 px-2 mx-auto")}>
+          <div className="container lg:px-8 px-2 mx-auto">
             <BigCard2
               title={card2.title}
               description={card2.description}
@@ -215,15 +215,13 @@ const CorporateTrainings: React.FC = () => {
       </motion.div>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section
-          className={tw(
-            "flex flex-col bg-green lg:p-12 lg::pb-20 lg:pt-20 p-6 lg:mt-8 mt-6"
-          )}
+          className="flex flex-col bg-green lg:p-12 lg::pb-20 lg:pt-20 p-6 lg:mt-8 mt-6"
         >
-          <SmallerH1 className={tw("text-white-light")}>
+          <SmallerH1 className="text-white-light">
             Featured Corporate Training Courses
           </SmallerH1>
           <br />
-          <H2 className={tw("text-white-light")}>
+          <H2 className="text-white-light">
             Enhance your team’s expertise, drive operational efficiency, and
             achieve your sustainability goals with our specialized training
             programs.
@@ -245,19 +243,17 @@ const CorporateTrainings: React.FC = () => {
             />
           ))}
           <br />
-          <SmallerH1 className={tw("text-white-light")}>
+          <SmallerH1 className="text-white-light">
             Ready to make a difference ?
           </SmallerH1>
           <br />
-          <H2 className={tw("text-white-light")}>
+          <H2 className="text-white-light">
             Join us now and start your journey towards sustainability!
           </H2>
           <div
-            className={tw(
-              "mt-8 mb-8 flex justify-center items-center w-full mx-auto"
-            )}
+            className="mt-8 mb-8 flex justify-center items-center w-full mx-auto"
           >
-            <Button modifier={tw("px-8")}>
+            <Button modifier={"px-8"}>
               Get started now
               <IoIosArrowForward />
             </Button>

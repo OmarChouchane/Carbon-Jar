@@ -131,15 +131,13 @@ const StudentsTrainings: React.FC = () => {
     <>
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
         <section
-          className={tw(
-            "flex flex-col bg-green lg:p-12 lg::pb-20  lg:pt-20 p-6 lg:mt-8 mt-6 lg:mt-40"
-          )}
+          className="flex flex-col bg-green lg:p-12 lg::pb-20 lg:pt-20 p-6 lg:mt-8 mt-6 lg:mt-40"
         >
-          <SmallerH1 className={tw("text-white-light")}>
+          <SmallerH1 className="text-white-light">
             Featured Students Training Courses
           </SmallerH1>
           <br />
-          <H2 className={tw("text-white-light")}>
+          <H2 className="text-white-light">
             Enhance your team’s expertise, drive operational efficiency, and
             achieve your sustainability goals with our specialized training
             programs.
@@ -163,19 +161,17 @@ const StudentsTrainings: React.FC = () => {
             />
           ))}
           <br />
-          <SmallerH1 className={tw("text-white-light")}>
+          <SmallerH1 className="text-white-light">
             Ready to make a difference ?
           </SmallerH1>
           <br />
-          <H2 className={tw("text-white-light")}>
+          <H2 className="text-white-light">
             Join us now and start your journey towards sustainability!
           </H2>
           <div
-            className={tw(
-              "mt-8 mb-8 flex justify-center items-center w-full mx-auto"
-            )}
+            className="mt-8 mb-8 flex justify-center items-center w-full mx-auto"
           >
-            <Button modifier={tw("px-8")}>
+            <Button modifier={"px-8"}>
               Get started now
               <IoIosArrowForward />
             </Button>
