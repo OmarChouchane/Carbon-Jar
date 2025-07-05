@@ -1,6 +1,5 @@
-import Head from 'next/head';
-import Navigation from '@/components/navigation';
-import { tw } from 'twind';
+import Head from "next/head";
+import Navigation from "@/components/navigation";
 
 interface IProps {
   children: React.ReactNode;

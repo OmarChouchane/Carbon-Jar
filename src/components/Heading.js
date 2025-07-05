@@ -1,5 +1,4 @@
 import React from 'react';
-import { tw } from 'twind'; 
 
 export const H1 = ({ children, className = '', ...props }) => (
   <h1 className={tw(`font-custom text-4xl md:text-5xl lg:text-7xl text-center leading-snug text-green ${className}`)} {...props}>

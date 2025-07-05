@@ -6,15 +6,15 @@
   "author": "CarbonJar",
   "license": "MIT",
   "keywords": [
-  "CarbonJar",
-  "Sustainability",
-  "Climate",
-  "GreenTech",
-  "EcoFriendly",
-  "Environmental",
-  "CarbonFootprint",
-  "ClimateAction"
-],
+    "CarbonJar",
+    "Sustainability",
+    "Climate",
+    "GreenTech",
+    "EcoFriendly",
+    "Environmental",
+    "CarbonFootprint",
+    "ClimateAction"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -45,8 +45,7 @@
     "react-tsparticles": "^2.12.2",
     "swiper": "^11.2.10",
     "tailwindcss": "^4.1.11",
-    "tsparticles": "^3.8.1",
-    "twind": "0.16.19"
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",

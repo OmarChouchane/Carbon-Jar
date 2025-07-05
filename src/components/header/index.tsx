@@ -1,4 +1,3 @@
-import { tw, css } from 'twind/css';
 import Button from '@/components/button';
 import React from 'react';
 import { IoIosArrowForward } from "react-icons/io";
